@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.1"
   s.ios.deployment_target = "7.1"
   s.source       = { :git => "git@github.com:MayueCastbox/Connect-SDK-iOS.git",
+                     :branch => 'develop',
                      :tag => s.version,
                      :submodules => true }
 
