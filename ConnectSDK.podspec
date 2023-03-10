@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "ConnectSDK"
-  s.version      = "1.6.5"
+  s.version      = "1.6.6"
   s.summary      = "Connect SDK is an open source framework that connects your mobile apps with multiple TV platforms."
 
   s.description  = <<-DESC
@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.1"
   s.ios.deployment_target = "7.1"
   s.source       = { :git => "git@github.com:MayueCastbox/Connect-SDK-iOS.git",
+                     :branch => 'develop',
                      :tag => s.version,
                      :submodules => true }
 
